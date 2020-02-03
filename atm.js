@@ -40,10 +40,7 @@ function entregarDinero()
    {
      if (e.cantidad > 0)
      {
-       function imprimirBilletes() {
-         alert("hola")
-       }
-       imprimirBilletes()
+
        resultado.innerHTML = resultado.innerHTML + e.cantidad + " billetes de $" + e.valor + "<br />" ;
      }
 
